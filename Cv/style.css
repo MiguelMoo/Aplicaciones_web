@@ -1,0 +1,249 @@
+html {
+    background-color: #5a372c;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 80vw;
+    height: 165vh;
+    border: 2px solid black;
+    background-color: #8b8b70;
+}
+
+header {
+    height: 5vh;
+    width: 80vw;
+    background-color: #c94b0c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .2rem 0;
+}
+
+header h1 {
+    color: #f0f0d8;
+}
+
+.datos {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw - 2px;
+    margin: auto;
+    padding: 0;
+}
+
+#foto {
+    width: 15rem;
+    height: 19.5rem;
+    margin: 2em;
+    border: 2px solid black;
+    float: left;
+}
+
+#tabla-info,
+.td-info {
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #2f615e;
+}
+
+.td-info {
+    width: 50%;
+}
+
+.info {
+    height: 20rem;
+    color: black;
+    display: table-cell;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#titulo-datos {
+    color: #f0f0d8;
+    background-color: #c94b0c;
+    padding: 0;
+    margin: .3rem 0 0 0;
+    margin-bottom: 15px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3rem;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.Edu {
+    color: black;
+    display: table-cell;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid black;
+}
+
+#table-edu {
+    margin: 1em 8px;
+    height: 15rem;
+}
+
+#table-edu,
+.th-edu,
+.td-edu {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 99%;
+    background-color: #2f615e;
+
+}
+
+.th-edu,
+.td-edu {
+    width: 32%;
+}
+
+#titulo-edu {
+    color: #f0f0d8;
+    background-color: #c94b0c;
+    padding: 0;
+    margin-top: 1rem;
+    width: 80vw;
+    height: 3rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-cap {
+    color: #f0f0d8;
+    background-color: #c94b0c;
+    padding: 0;
+    margin-top: 1rem;
+    width: 80vw;
+    height: 3rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cap-personales {
+    width: 100%;
+    height: 18rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.con {
+    padding: 8px;
+    width: 98% + 1px;
+    height: 10.2rem;
+}
+
+.len,
+.otraslen,
+.forta {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 7px;
+    height: 10rem;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.len,
+.otraslen {
+    float: left;
+    width: 50%;
+    height: 5rem;
+}
+
+#Forta {
+    padding-left: 65%;
+}
+
+li {
+    text-align: left;
+}
+
+.h3 {
+    color: #000;
+    background-color: #2f615e;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.cap-tecnicas {
+    width: 98% + 1px;
+    height: 13rem;
+}
+#titulo-cap-tec{
+    color: #f0f0d8;
+    background-color: #c94b0c;
+    padding: 0;
+    margin-top: 1rem;
+    width: 80vw;
+    height: 3rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cap-tec{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 7px;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cap-tec-ti{
+    color: #000;
+    background-color: #2f615e;
+    height: 1.5em;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: auto;
+    border: 1px solid black;
+}
+#cap-tec{
+    width: 100%;
+    padding: 0;
+}
+.cap-te{
+    width: 30%;
+    margin: 0 1rem;
+    height: 5rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

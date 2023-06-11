@@ -1,0 +1,16 @@
+body{
+    background-color: coral;
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+}
+div{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    width: 90%;
+    border: 1px  outset rgb(202, 36, 6);
+}
+.listas{
+    display: block;
+}

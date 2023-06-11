@@ -1,0 +1,31 @@
+html{
+    background-color: rgb(45, 19, 141);
+}
+body{
+    margin: auto;
+    background-color: rgba(29, 95, 16, 0.603);
+    height: 120vh;
+    width: 100vh;
+}
+ul li{
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+    color: azure;
+    margin-bottom: 30px;
+}
+.proyecto{
+    display: grid;
+    place-items: center;
+}
+a{
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    width: 12rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin: auto 4rem;
+}
